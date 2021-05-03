@@ -1,6 +1,6 @@
 import os
 
-dotfiles = ["~/.config/nvim"]
+dotfiles = ["~/.config/nvim", "~/.tmux.conf"]
 
 def git_update():
     os.system("git add .")
