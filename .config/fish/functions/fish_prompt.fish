@@ -1,0 +1,1 @@
+/home/gabe/.local/share/omf/themes/kawasaki/fish_prompt.fish
