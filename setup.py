@@ -1,7 +1,9 @@
 import os
 
-apt_apps = ["nvim tmux fish"]
-other_apps = ["curl -L https://get.oh-my.fish | fish"]
+apt_apps = ["neovim tmux fish"]
+other_apps = ["curl -L https://get.oh-my.fish | fish",
+              "git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm",
+              "sudo usermod --shell /usr/bin/fish $USER"]
 
 def main():
     print("Downloading apps")
