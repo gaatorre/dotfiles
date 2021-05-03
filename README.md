@@ -9,4 +9,5 @@ of this script.
 
 `python3 backup.py`
 
+To setup on a new machine, first run the following command: `python3 setup.py`
 
