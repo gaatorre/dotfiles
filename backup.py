@@ -1,6 +1,7 @@
 import os
 
 dotfiles = ["~/.config", "~/.tmux.conf", "~/.fonts", "~/.vimrc"]
+cmds = ["crontab -l > crontab"]
 
 def git_update():
     os.system("git add .")
@@ -12,6 +13,9 @@ def main():
 
     for i in dotfiles:
         os.system(f"cp -r {i} .")
+
+    for i in cmds:
+        os.system(f"{i}")
 
     git_update()
 
