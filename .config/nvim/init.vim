@@ -27,8 +27,8 @@ call plug#end()
 let g:ale_linters = {
     \ 'python': ['pylint'],
     \ 'vim': ['vint'],
-    \ 'cpp': ['clang-12'],
-    \ 'c': ['clang-12 -Wextra -Werror -Wpedantic']
+    \ 'cpp': ['g++ -Wextra -Wpedantic'],
+    \ 'c': ['g++ -Wextra -Werror -Wpedantic']
 \}
 " custom setting for clangformat
 
