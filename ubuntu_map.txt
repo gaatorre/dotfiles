@@ -1,4 +1,4 @@
-./.tmux.conf
-./.config/nvim/ .config
-./.config/omf/ .config
-./.config/fish .config
+./.tmux.conf .tmux.conf
+./.config/nvim .config/nvim
+./.config/omf .config/omf
+./.config/fish .config/fish
